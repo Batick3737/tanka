@@ -1,0 +1,104 @@
+.title {
+  color: white;
+}
+
+.edit {
+  margin: 20px;
+  color: white;
+
+  &__info {
+    margin-left: 10px;
+  }
+
+  &__buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.button {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: white;
+  margin: 150px;
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
+
+.cars {
+  margin: 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.car {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+
+  &__link {
+    border: 1px solid black;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+
+.home {
+ margin: 100px;
+ color: white;
+ font-size: 32px;
+ width: 500px;
+ display: flex;
+ gap: 30px;
+ flex-direction: column;
+
+ &__link {
+  padding: 15px;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+}
+
+body {
+  background-image: url(/src/imageF.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
